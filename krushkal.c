@@ -3,8 +3,9 @@
 int i,j,k,a,b,u,v,ne=1,n;
 int min,mincost=0,adj[25][25],parent[25];
 int find(int i){
-    while(parent[i])
+    while(parent[i]){
       i=parent[i];
+      }
       return i;
 }
 int uni(int i,int j){

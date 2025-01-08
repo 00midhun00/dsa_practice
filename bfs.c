@@ -1,7 +1,5 @@
 #include<stdio.h>
 #define max 5
-
-
 int main(){
     int visited[max]={0};
     int adj[max][max],i,j,start;

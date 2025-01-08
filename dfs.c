@@ -1,7 +1,5 @@
 #include<stdio.h>
 #define max 7
-
-
 int main(){
     int stack[max],visited[max];
     int top=-1,i,k,j,start,n;
